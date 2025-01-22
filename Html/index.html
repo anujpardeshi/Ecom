@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/navbar.css">
+
+    <style>
+        nav {
+            display: flex;
+            width: 100%;
+            height: 50px;
+            font-size: 30px;
+            font-weight: bold;
+            justify-content: space-evenly;
+            align-items: center;
+            border: 2px solid;
+        }
+        
+        #cred {
+            display: flex;
+            width: 600px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+    #main{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+        text-align: center;
+    }
+
+    #main div img{
+        width: 100%;
+        height: 200px;
+    }
+
+    #main div{
+        padding: 15px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    </style>
+</head>
+<body>
+
+<nav>
+
+        <a href="./index.html">home</a>
+
+    <div id="cred">
+        <a href="./login.html">Login</a>
+        <a href="./signup.html">signup</a>
+    </div>
+    
+    </ul>
+</nav>
+    
+    <h1>Home Page</h1>
+
+    <div id="main"></div>
+</body>
+<script src="../script/index.js"></script>
+<script src="../script/data.js"></script>
+</html>
